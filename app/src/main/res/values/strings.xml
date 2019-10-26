@@ -1,0 +1,387 @@
+<resources>
+    <string name="app_name">Rutilahu App</string>
+    <string name="access_token">pk.eyJ1IjoibGloYXRtYXAiLCJhIjoiY2poejN3MmJ0MHRmczNrcW5yOHBnOG03YyJ9.l7_aQdxiep-RYYYDLZj7bw</string>
+
+    //NAVIGATION
+    <string name="title_list">Data</string>
+    <string name="title_map">Peta</string>
+    <string name="title_account">Akun</string>
+    <string name="title_back">Kembali</string>
+    <string name="title_refresh">Reset</string>
+    <string name="title_submit">Kirim</string>
+    <string name="title_dukung">Validitas</string>
+    <string name="title_edit">Edit</string>
+
+    ///MENU FRAGMENT
+    <string name="menu_pilihlokasi">Pilih Lokasi</string>
+    <string name="menu_lokasisaya">Lokasi Saya</string>
+    <string name="menu_radius">Radius (Km) :</string>
+    <string name="menu_hint00">00</string>
+    <string name="menu_radius25">2.5</string>
+    <string name="menu_tampilkan">Tampilkan</string>
+    <string name="menu_simpandata">Simpan Data</string>
+    <string name="menu_geserpeta">Geser Peta untuk Memilih Lokasi</string>
+
+    <string name="swipe_up"> </string>
+    <string name="map_type">MAP TYPE</string>
+    <string name="layer">LAYER</string>
+    <string name="basic">Basic</string>
+    <string name="traffic">Traffic</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="night">Night</string>
+    <string name="sattelite">Satellite</string>
+    <string name="street">Street</string>
+    <string name="rtlh">RTLH</string>
+    <string name="batasadmin">Batas Wilayah</string>
+    <string name="dot">…</string>
+    <string name="tambah_data">TAMBAH DATA</string>
+    <string name="version">Abdimas Version : 0.0901</string>
+    <string name="subtitle">Aplikasi Pemetaan Partisipatif\n
+        Rumah Tidak Layak Huni</string>
+    <string name="user_location_permission_explanation">Meminta Akses Lokasi</string>
+    <string name="user_location_permission_not_granted">Akses Lokasi Tidak Diberikan</string>
+    <string name="title_activity_rtlhsubmit">Tambah Data RTLH</string>
+
+    <string name="account_angkatsurv"><u>Angkat Surveyor</u></string>
+    <string name="account_surveyordesc">*Ketikkan Nama Pengguna yang ingin diangkat menjadi Surveyor. Jika Pengguna yang diangkat lebih dari 1, gunakan tanda koma (,) sebagai pemisah (tanpa tanda spasi).\n*Nama Kegiatan Maksimal 25 Karakter</string>
+    <string name="account_angkat">Angkat</string>
+    <string name="account_namakegiatan">Nama Kegiatan : </string>
+    <string name="account_namakegiatanhint">Contoh : Update Data RTLH 2019</string>
+    <string name="account_angkathint">Contoh : Raden,Agus45,jefri</string>
+    <string name="account_bataswaktu">Batas Waktu (Maksimum 30 Hari) : </string>
+
+    <string name="text_tanggal">TANGGAL</string>
+    <string name="text_tentang">Tentang</string>
+    <string name="text_tutorial">Tutorial</string>
+
+    <string name="text_tentangApps">Tentang Aplikasi</string>
+    <string name="text_tentangAppsIsi">Aplikasi yang dikhususkan untuk Pendataan Rumah Tidak Layak Huni (RTLH) dengan sistem Pemetaan Partisipatif, sehingga siapa pun dapat menambahkan dan mengedit data. \n
+        Petunjuk Penggunaan Aplikasi dapat dilihat melalui link di bawah ini:</string>
+    <string name="text_apaItu">Apa itu RTLH?</string>
+    <string name="text_apaItuIsi">Menurut Permenpera Tahun 2008, Rumah Tidak Layak Huni (RTLH) adalah rumah yang tidak memenuhi persyaratan keselamatan bangunan, kecukupan minimum luas bangunan, serta kesehatan penghuninya. \n
+    Kriteria Rumah Layak Huni harus memenuhi persyaratan-persyaratan berikut, yakni : \n
+         a) Keselamatan bangunan meliputi : Struktur Bawah/Pondasi;  Struktur Tengah/Kolom dan Balok dan Struktur Atas.  \n
+         b) Kesehatan meliputi pencahayaan, penghawaan, dan sanitasi. \n
+         c) Kecukupan luas minimum 7,2 m²  - 12 m² /orang. \n
+        Modul Pendataan RTLH dapat dilihat melalui link :
+    </string>
+    <string name="text_termsofuse">Ketentuan Penggunaan</string>
+    <string name="text_termsofuseIsi">Dengan mengunduh, menginstal, dan menggunakan aplikasi ini, Anda setuju bahwa Anda telah membaca, memahami, menerima, dan menyetujui *Ketentuan Penggunaan* ini.
+        Ketentuan penggunaan ini merupakan suatu perjanjian yang sah antara Anda dan Pengembang Aplikasi ini. Silahkan membatalkan Akun Anda dan secara permanen menghapus aplikasi dari perangkat Anda jika Anda tidak setuju pada Ketentuan Penggunaan ini. \n
+        \n
+        1. Aplikasi ini memungkinkan Anda untuk pemetaan RTLH secara partisipatif. Sehingga aplikasi ini akan memendeteksi lokasi perangkat Anda menggunakan GPS yang ada pada perangkat Anda. \n
+        2. Anda hanya dapat menggunakan aplikasi jika Anda sudah mendaftar melalui aplikasi. \n
+        3. Pengguna wajib memberikan informasi yang benar mengenai data RTLH yang dikumpulkan. \n
+        4. Anda berjanji untuk menggunakan aplikasi ini sebaik-baiknya dan tidak akan menyalahgunakan atau menggunakan aplikasi untuk kepentingan yang melanggar hukum. \n
+        5. Anda tidak diperkenankan untuk membahayakan, mengubah, atau memodifikasi aplikasi dengan cara apapun. \n
+        6. Pengembang tidak bertanggung jawab jika ada informasi yang tidak benar yang Anda dapatkan melalui aplikasi ini. \n
+        7. Pengembang akan berupaya semaksimal mungkin untuk memberikan layanan terbaik melalui aplikasi ini.
+
+    </string>
+    <string name="text_privacypolicy">Kebijakan Privasi</string>
+    <string name="text_privacypolicyIsi">Kebijakan Privasi berikut ini menjelaskan bagaimana Aplikasi ini mengumpulkan, menyimpan, menggunakan, menguasai, mengungkapkan, dan melindungi informasi pribadi Anda. \n
+        \n
+        Mohon baca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa Anda memahami bagaimana proses pengolahan data pribadi Anda. \n
+        \n
+        1. Aplikasi ini mengumpulkan informasi yang mengidentifikasi dan dapat digunakan untuk menghubungi Anda. Informasi tersebut tidak terbatas pada nama, email, alamat, lokasi, dan lain sebagainya. \n
+        2. Informasi yang dikumpulkan bisa langsung dari Anda atau Perangkat seluler Anda. Ketika Anda mendaftar dan membuat akun menggunakan aplikasi ini, Anda harus memberikan informasi pribadi tertentu, termasuk alamat email dan nama. \n
+        3. Setiap kali Anda menggunakan aplikasi, aplikasi akan mengumpulkan data teknis termasuk akses terakhir Anda dan lokasi Perangkat Anda. Dalam beberapa kasus, Anda diminta untuk mengaktifkan GPS pada perangkat Anda. \n
+        4. Informasi pribadi Anda yang dikumpulkan dapat digunakan untuk dengan tujuan memverifikasi, menonaktifkan, atau mengelola akun Anda, serta untuk mengirim pemberitahuan terkait melalui alamat email Anda. \n
+        5. Kerahasiaan informasi pribadi Anda akan dijaga dari ancaman orang-orang yang tidak berwenang. \n
+        6. Informasi lainnya mengenai data RTLH yang Anda kumpulkan dapat digunakan oleh siapa pun dan dimana pun untuk kepentingan tertentu. \n
+        7. Kebijakan Privasi ini dapat berubah sewaktu-waktu. \n
+        8. Dengan menyetujui Kebijakan Privasi, Anda mengakui bahwa Anda telah membaca, memahami, dan menyetujui Kebijakan Privasi ini.
+    </string>
+    <string name="text_copyright">Hak Cipta</string>
+    <string name="text_copyrightIsi">Aplikasi ini dibuat untuk memenuhi Mata Kuliah GDA-500 Tugas Akhir, Jurusan Teknik Geodesi Itenas. \n
+        Aplikasi ini diharapkan dapat memberikan manfaat kepada masyarakat, di antaranya seperti : \n
+        \t * Menyediakan aplikasi android untuk pemetaan partisipatif, khususnya dalam pendataan RTLH;  \n
+        \t * Data RTLH yang dikumpulkan dapat digunakan sebagai acuan oleh pemerintah maupun pihak swasta untuk meningkatkan kualitas pada rumah-rumah yang tidak layak huni;  \n
+        \t * Meningkatkan inisiatif masyarakat untuk ikut serta dalam kegiatan pemetaan partisipatif, terutama dalam masalah sosial pendataan rumah tidak layak huni.  \n
+        \n
+        Aplikasi ini dibuat dengan menggunakan perangkat lunak Android Studio, dengan Peta Dasar dan API yang digunakan dari layanan Mapbox, serta Layanan 000WebHost untuk membuat aplikasi ini dapat berjalan secara online.  \n
+        *Versi Aplikasi : 0.0901 \n
+        *Pembaharuan Terakhir : 1 September 2019 \n
+        *Email :
+    </string>
+    <string name="text_emaildeveloper"><u>alfadila.anas@mhs.itenas.ac.id</u></string>
+
+    <string name="text_ITENAS">
+        JURUSAN TEKNIK GEODESI \n
+        FAKULTAS TEKNIK SIPIL DAN PERENCANAAN \n
+        INSTITUT TEKNOLOGI NASIONAL \n
+        BANDUNG \n
+        2019
+    </string>
+    <string name="text_kontribusi">Kontribusi :</string>
+
+
+//////Tutorial
+    <string name="tutor_BtnModul">Modul</string>
+    <string name="tutor_LinkModul">https://s.id/ModulRTLH</string>
+    <string name="LinkModul"><u>https://s.id/ModulRTLH</u></string>
+    <string name="tutor_BtnUserManual">User Manual</string>
+    <string name="link_usermanual"><u>https://s.id/RutilahuAppUserManual</u></string>
+    <string name="tutor_Welcome">Selamat Datang</string>
+    <string name="tutor_WelcomeIsi">Aplikasi ini merupakan aplikasi Pendataan Rumah Tidak Layak Huni (RTLH) berbasis Pemetaan Partisipatif \n
+        ##### APA ITU RTLH? ##### \n
+        Menurut Kementerian Pekerjaan Umum dan Perumahan Rakyat (KemenPUPR), Rumah Tidak Layak Huni (RTLH) adalah rumah yang tidak memenuhi persyaratan keselamatan bangunan, kecukupan minimum luas bangunan, serta kesehatan penghuninya. \n
+        \n
+        Untuk lebih lengkapnya, Modul Pendataan RTLH yang dikeluarkan oleh KemenPUPR dapat dilihat melalui tombol di bawah ini:
+    </string>
+
+/////Rating
+    <string name="text_ratingApps">Beri Rating pada Aplikasi</string>
+    <string name="text_rating">Beri Rating</string>
+    <string name="text_ratingPerangkat">Tipe Smartphone Anda (Wajib diisi)</string>
+    <string name="text_ratingKuesioner">Kuesioner</string>
+    <string name="text_ratingSaran">Berikan Saran (Opsional)</string>
+    <string name="text_ratingLapor">Laporkan Error dan Bug (Opsional)</string>
+    <string name="text_ratingPendapat">Berikan Pendapat Anda (Wajib diisi)</string>
+    <string name="text_ratingPetunjuk">* Petunjuk Mengisi Kuesioner :</string>
+    <string name="text_rating1"># Sangat Kurang = 1</string>
+    <string name="text_rating2"># Kurang = 2</string>
+    <string name="text_rating3"># Cukup = 3</string>
+    <string name="text_rating4"># Baik = 4</string>
+    <string name="text_rating5"># Sangat Baik = 5</string>
+    <string name="text_no1">1</string>
+    <string name="text_no2">2</string>
+    <string name="text_no3">3</string>
+    <string name="text_no4">4</string>
+    <string name="text_no5">5</string>
+    <string name="text_RQ1">1.	Apakah aplikasi ini sudah sesuai dengan kebutuhan Anda?</string>
+    <string name="text_RQ2">2.	Dengan adanya aplikasi ini, apakah mempermudah Anda dalam Pendataan RTLH?</string>
+    <string name="text_RQ3">3.	Apakah aplikasi ini bekerja sesuai dengan fungsinya?</string>
+    <string name="text_RQ4">4.	Apakah aplikasi ini dapat diakses dengan baik menggunakan smartphone yang Anda miliki?</string>
+    <string name="text_RQ5">5.	Menurut Anda, apakah prosedur Pendataan RTLH dengan tampilan peta dibutuhkan oleh masyarakat umum?</string>
+    <string name="text_RQ6">6.	Apakah aplikasi ini masih dapat berjalan dengan baik meski ada kekeliruan dalam memasukkan data atau menekan tombol perintah?</string>
+    <string name="text_RQ7">7.	Apakah Bahasa/Kata yang digunakan dalam aplikasi ini sudah tepat?</string>
+    <string name="text_RQ8">8.	Apakah cara kerja aplikasi mudah dipahami?</string>
+    <string name="text_RQ9">9.	Apakah aplikasi ini menyediakan tutorial yang jelas?</string>
+    <string name="text_RQ10">10.	Apakah Anda dapat menggunakan aplikasi ini dengan mudah?</string>
+    <string name="text_RQ11">11.	Menurut Anda, apakah aplikasi ini secara umum akan mudah digunakan oleh semua kalangan?</string>
+    <string name="text_RQ12">12.	Menurut Anda, apakah tampilan dan fitur pada aplikasi sudah sesuai untuk Pendataan RTLH?</string>
+    <string name="text_RQ13">13.	Apakah Anda merasa nyaman dengan tampilan pada aplikasi?</string>
+    <string name="text_RQ14">14.	Dengan adanya aplikasi ini, apakah Anda dapat dengan mudah dan cepat dalam melakukan Pendataan RTLH?</string>
+    <string name="text_RQ15">15.	Dengan adanya aplikasi ini, apakah Anda dapat dengan mudah dan cepat dalam melakukan Pencarian Data RTLH?</string>
+
+
+    <string name="text_data_menu">Data RTLH di Sekitar</string>
+    <string name="text_batal">Batal</string>
+    <string name="text_tutup">Tutup</string>
+    <string name="text_keluar">Keluar</string>
+    <string name="text_cobalagi">Coba Lagi</string>
+    <string name="text_perbarui">Perbarui</string>
+    <string name="text_kembali">&lt; Kembali</string>
+    <string name="text_selesai">* Selesai</string>
+    <string name="text_lanjut">Lanjut &gt;</string>
+    <string name="text_nextImg">&gt; &gt;</string>
+    <string name="text_backImg">&lt; &lt;</string>
+    <string name="text_setuju">Setuju</string>
+    <string name="text_tidak_setuju">Tidak Setuju</string>
+    <string name="text_license">Perjanjian Lisensi</string>
+    <string name="text_license_agreement">Dengan menggunakan aplikasi ini, Anda harus menyetujui beberapa hal:</string>
+    <string name="text_license_agreement1">*Aplikasi ini akan mengumpulkan dan menggunakan Data Lokasi Anda.</string>
+    <string name="text_license_agreement2">*Aplikasi ini akan meminta akses untuk mengggunakan GPS, Kamera, dan Lokasi Penyimpanan Anda.</string>
+    <string name="text_license_agreement3">*Data yang Anda kumpulkan melalui aplikasi ini dapat dimanfaatkan oleh pihak mana pun yang membutuhkan.</string>
+    <string name="text_license_agreement4">*Menggunakan aplikasi ini dengan sebaik-baiknya.</string>
+    <string name="text_email">E-Mail</string>
+    <string name="text_masuk_email">MASUK DENGAN E-MAIL</string>
+    <string name="text_masuk_verif">MASUKAN KODE VERIFIKASI</string>
+    <string name="text_verif">Kode Verifikasi</string>
+    <string name="text_string_verif">*Buka Email Anda untuk mendapatkan Kode Verifikasi</string>
+    <string name="text_masuk_uname">SELAMAT DATANG PENGGUNA BARU</string>
+    <string name="text_uname">Nama Pengguna</string>
+    <string name="text_string_uname">*Nama Pengguna hanya boleh menggunakan Huruf atau Angka dengan Minimum 4 Karakter</string>
+    <string name="text_about">Tentang Saya :</string>
+    <string name="text_dukungan_masyarakat">VALIDITAS DATA</string>
+    <string name="text_edit_history">RIWAYAT PENYUNTINGAN</string>
+    <string name="text_valid">VALID</string>
+    <string name="text_dukung">DUKUNG</string>
+    <string name="text_tolak">TOLAK</string>
+    <string name="text_dukungan">Dukungan :</string>
+    <string name="text_validasi">Validasi :</string>
+    <string name="text_penolakan">Penolakan :</string>
+    <string name="text_databaru">Data Baru :</string>
+    <string name="text_editdata">Edit Data :</string>
+    <string name="text_dukungananda">Berikan Dukungan Anda</string>
+    <string name="text_dukungan_nodata">*Belum Ada Dukungan</string>
+    <string name="text_data_nodata">*Tentukan Lokasi dan Masukan Radius</string>
+
+
+    //Submit RTLH
+    <string name="text_mengirim_data">Mengirim Data…</string>
+    <string name="text_mengunggah_gambar">Mengunggah Gambar : …</string>
+    <string name="text_mengunggah_data">Mengunggah Data : …</string>
+    <string name="text_menyimpan_data">Menyimpan Data : …</string>
+    <string name="text_submit_success">Data RTLH Berhasil Ditambahkan</string>
+
+    <string name="no_internet_connection">Tidak Dapat Terhubung ke Server</string>
+    <string name="on_back_pressed">Ketuk 2 Kali Untuk Menutup Aplikasi</string>
+
+    //RTLH FORMULIR//
+    <string name="rtlh_isian_wajib">*ISIAN WAJIB</string>
+    <string name="rtlh_isian_opsional">*ISIAN OPSIONAL</string>
+    <string name="rtlh_nama_penghuni">Nama Penghuni</string>
+    <string name="rtlh_tambah_foto">Ambil Foto</string>
+    <string name="rtlh_edit_loc">Ubah Lokasi</string>
+    <string name="rtlh_hapus_data">xxX* HAPUS DATA *Xxx</string>
+    <string name="rtlh_enabled_edit">Izinkan Pengguna Lain Mengedit Data</string>
+    <string name="text_hapus_data">Hapus</string>
+    <string name="rtlh_simpan_loc">Simpan Lokasi</string>
+    <string name="rtlh_textEditLoc">Tekan dan Tahan pada Peta untuk Memilih Lokasi</string>
+    <string name="rtlh_ada">Ada</string>
+    <string name="rtlh_tidak_ada">Tidak Ada</string>
+    <string name="rtlh_desa_kelurahan">DESA/KELURAHAN</string>
+    <string name="rtlh_kecamatan">KECAMATAN</string>
+    <string name="rtlh_kab_kota">KABUPATEN/KOTA</string>
+    <string name="rtlh_provinsi">PROVINSI</string>
+    <string name="rtlh_kodepos">KODE POS</string>
+    <string name="rtlh_deskripsi">Deskripsi Tambahan (Opsional)</string>
+
+    <string name="rtlh_identitas_penghuni">I. IDENTITAS PENGHUNI RUMAH</string>
+    <string name="rtlh_hide_identitas_penghuni">Pengguna Biasa / Masyarakat Umum tidak dapat melihat informasi terkait Identitas Penghuni Rumah.\nHubungi Admin atau Moderator untuk dapat melihat informasi ini.</string>
+    <string name="rtlh_nama_lengkap">Nama Lengkap</string>
+    <string name="rtlh_usia">Usia (Tahun)</string>
+    <string name="rtlh_pend_terakhir">Pendidikan Terakhir</string>
+    <string name="pend_tidak">Tidak Punya Ijazah</string>
+    <string name="pend_sd">SD/Sederajat</string>
+    <string name="pend_smp">SMP/Sederajat</string>
+    <string name="pend_sma">SMA/Sederajat</string>
+    <string name="pend_d123">D1/D2/D3</string>
+    <string name="pend_d4s1">D4/S1</string>
+    <string name="rtlh_jenis_kelamin">Jenis Kelamin</string>
+    <string name="jk_lk">Laki-Laki</string>
+    <string name="jk_pr">Perempuan</string>
+    <string name="rtlh_alamat_lengkap">Alamat Lengkap</string>
+    <string name="rtlh_nomor_ktp">Nomor KTP (NIK)</string>
+    <string name="rtlh_jumlah_kk">Jumlah KK dalam</string>
+    <string name="rtlh_jumlah_kk2">1 Rumah</string>
+    <string name="rtlh_pekerjaan_utama">Pekerjaan Utama</string>
+    <string name="peker_pns">PNS</string>
+    <string name="peker_tni">TNI/POLRI</string>
+    <string name="peker_bumn">BUMN/D</string>
+    <string name="peker_pensiun">Pensiunan</string>
+    <string name="peker_pramu">Pramuwisma</string>
+    <string name="peker_ojek">Ojek/Sopir</string>
+    <string name="peker_honorer">Honorer</string>
+    <string name="peker_karyawan">Karyawan</string>
+    <string name="peker_tukang">Tukang/Montir</string>
+    <string name="peker_petani">Petani</string>
+    <string name="peker_wirausaha">Wirausaha</string>
+    <string name="peker_lansia">Lansia/IRT</string>
+    <string name="peker_nelayan">Nelayan</string>
+    <string name="peker_buruh">Buruh Harian</string>
+    <string name="peker_lainnya">Lainnya</string>
+    <string name="peker_tidak_bekerja">Tidak Bekerja</string>
+    <string name="rtlh_penghasilan_bulan">Penghasilan atau</string>
+    <string name="rtlh_penghasilan_bulan2">Pengeluaran/Bulan</string>
+    <string name="pengh_1_2">&lt; 1.2 juta</string>
+    <string name="pengh_1_9">1.9 - 2.1 juta</string>
+    <string name="pengh_2_2">2.2 - 2.6 juta</string>
+    <string name="pengh_2_7">2.7 - 3.1 juta</string>
+    <string name="pengh_3_2">3.2 - 3.6 juta</string>
+    <string name="pengh_3_7">3.7 - 4.2 juta</string>
+    <string name="pengh_4_2">&gt; 4.2 juta</string>
+    <string name="rtlh_status_kepemilikian">Status Kepemilikan</string>
+    <string name="rtlh_status_tanah">Tanah</string>
+    <string name="rtlh_status_rumah">Rumah</string>
+    <string name="status_milik">Milik Sendiri</string>
+    <string name="status_bukan">Bukan Milik Sendiri</string>
+    <string name="status_kontrak">Kontrak/Sewa</string>
+    <string name="status_negara">Tanah Negara</string>
+    <string name="rtlh_aset_tanah">Aset Tanah</string>
+    <string name="rtlh_aset_rumah">Aset Rumah</string>
+    <string name="rtlh_aset_lain">Ditempat Lain</string>
+    <string name="rtlh_bantuan_perumahan">Pernah \nMendapatkan</string>
+    <string name="rtlh_bantuan_perumahan2">Bantuan Perumahan</string>
+    <string name="bantuan_lebih">Ya. Lebih dari 5 Tahun yang Lalu</string>
+    <string name="bantuan_kurang">Ya. Kurang dari 5 Tahun yang Lalu</string>
+    <string name="bantuan_belum">Belum Pernah</string>
+    <string name="rtlh_jenis_kawasan">Jenis Kawasan</string>
+    <string name="rtlh_jenis_kawasan2">Lokasi Rumah</string>
+    <string name="rtlh_jenis_kawasan3">yang Ditempati</string>
+    <string name="kawasan_rawan">Rawan Air</string>
+    <string name="kawasan_kek">KEK</string>
+    <string name="kawasan_perbatasan">Perbatasan</string>
+    <string name="kawasan_kumuh">Kumuh</string>
+    <string name="kawasan_kspn">KSPN</string>
+    <string name="kawasan_pesisir">Pesisir/Nelayan</string>
+    <string name="kawasan_pulau">Pulau-Pulau Kecil/Terluar</string>
+    <string name="kawasan_trans">Transmigrasi</string>
+    <string name="kawasan_tertinggal">Daerah Tertinggal dan Terpencil</string>
+
+    <string name="rtlh_kondisi_rumah">II. KONDISI FISIK RUMAH</string>
+    <string name="rtlh_aspek_keselamatan">A. ASPEK KESELAMATAN</string>
+    <string name="rtlh_pondasi">Pondasi</string>
+    <string name="rtlh_kondisi_kolom">Kondisi Kolom</string>
+    <string name="rtlh_kondisi_kolom2">dan Balok</string>
+    <string name="rtlh_konstruksi_atap">Kondisi</string>
+    <string name="rtlh_konstruksi_atap2">Konstruksi Atap</string>
+    <string name="kondisi_baik">Kondisi Baik</string>
+    <string name="kondisi_ringan">Rusak Ringan</string>
+    <string name="kondisi_sedang">Rusak Sedang/Sebagian</string>
+    <string name="kondisi_berat">Rusak Berat/Seluruhnya</string>
+
+    <string name="rtlh_aspek_kesehatan">B. ASPEK KESEHATAN</string>
+    <string name="rtlh_jendela">Jendela /</string>
+    <string name="rtlh_jendela2">Lubang Cahaya</string>
+    <string name="rtlh_ventilasi">Ventilasi</string>
+    <string name="rtlh_kamar_mandi">Kepemilikan Kamar</string>
+    <string name="rtlh_kamar_mandi2">Mandi dan Jamban</string>
+    <string name="km_sendiri">Sendiri</string>
+    <string name="km_bersama">Bersama/MCK Komunal</string>
+    <string name="rtlh_jarak_tpa">Jarak Sumber Air</string>
+    <string name="rtlh_jarak_tpa2"> Minum ke TPA Tinja</string>
+    <string name="jarak_lebih">Lebih dari 10 Meter</string>
+    <string name="jarak_kurang">Kurang dari 10 Meter</string>
+    <string name="rtlh_air_minum">Sumber Air Minum</string>
+    <string name="minum_pdam">PDAM</string>
+    <string name="minum_kemasan">Air Kemasan/Isi Ulang</string>
+    <string name="minum_sumur">Sumur</string>
+    <string name="minum_mataair">Mata Air</string>
+    <string name="minum_hujan">Air Hujan</string>
+    <string name="minum_lainnya">Lainnya</string>
+    <string name="rtlh_sumber_listrik">Sumber Listrik</string>
+    <string name="listrik_dengan">PLN dengan Meteran</string>
+    <string name="listrik_tanpa">PLN tanpa Meteran</string>
+    <string name="listrik_nonpln">Listrik Non PLN</string>
+    <string name="listrik_bukan">Bukan Listrik</string>
+
+    <string name="rtlh_aspek_kebutuhan">C. ASPEK PERSYARATAN LUAS DAN KEBUTUHAN RUANG</string>
+    <string name="rtlh_luas_rumah">Luas Rumah (M<sup><small>2</small></sup>)</string>
+    <string name="rtlh_jumlah_penghuni">Jumlah Penghuni (Orang)</string>
+
+    <string name="rtlh_aspek_komponen">D. ASPEK KOMPONEN BAHAN BANGUNAN SESUAI KONTEKS LOKAL</string>
+    <string name="rtlh_material_atap">Material Atap</string>
+    <string name="rtlh_material_terluas">Terluas</string>
+    <string name="atap_genteng">Genteng</string>
+    <string name="atap_asbes">Asbes</string>
+    <string name="atap_seng">Seng</string>
+    <string name="atap_jerami">Jerami</string>
+    <string name="atap_ijuk">Ijuk</string>
+    <string name="atap_daun">Daun-Daunan</string>
+    <string name="atap_rumbia">Rumbia</string>
+    <string name="rtlh_kondisi_atap">Kondisi Atap</string>
+    <string name="rtlh_material_dinding">Material Dinding</string>
+    <string name="dinding_tembok">Tembok</string>
+    <string name="dinding_asbes">GRC (Asbes)</string>
+    <string name="dinding_kayu">Kayu/Papan</string>
+    <string name="dinding_plesteran">Plesteran Anyaman Bambu</string>
+    <string name="dinding_anyaman">Anyaman Bambu</string>
+    <string name="dinding_bambu">Bambu</string>
+    <string name="dinding_rumbia">Rumbia</string>
+    <string name="dinding_lainnya">Lainnya</string>
+    <string name="rtlh_kondisi_dinding">Kondisi Dinding</string>
+    <string name="rtlh_material_lantai">Material Lantai</string>
+    <string name="lantai_granit">Marmer/Granit</string>
+    <string name="lantai_keramik">Keramik</string>
+    <string name="lantai_ubin">Ubin/Tegel</string>
+    <string name="lantai_plesteran">Plesteran</string>
+    <string name="lantai_kayu">Kayu</string>
+    <string name="lantai_bambu">Bambu</string>
+    <string name="lantai_tanah">Tanah</string>
+    <string name="rtlh_kondisi_lantai">Kondisi Lantai</string>
+    //RTLH FORMULIR//
+
+</resources>

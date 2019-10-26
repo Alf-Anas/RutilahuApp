@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        mapbox:mapbox_cameraTargetLat="-6.8979641073"
+        mapbox:mapbox_cameraTargetLng="107.6358943590"
+        mapbox:mapbox_cameraZoom="15">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/slideShow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/slideShowBG"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.245"
+                mapbox:srcCompat="@drawable/slide_small" />
+
+            <TextView
+                android:id="@+id/textShowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/dot"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/slideShowBG"
+                app:layout_constraintEnd_toEndOf="@+id/slideShowBG"
+                app:layout_constraintStart_toStartOf="@+id/slideShowBG"
+                app:layout_constraintTop_toTopOf="@+id/slideShowBG" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/slideNew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/slideNewBG"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499"
+                mapbox:srcCompat="@drawable/slide_small" />
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:rotation="90"
+                android:text="@string/tambah_data"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                mapbox:layout_constraintBottom_toBottomOf="parent"
+                mapbox:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/newRTLH"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/slideNewBG"
+                app:layout_constraintTop_toTopOf="parent"
+                mapbox:srcCompat="@drawable/ic_rtlh" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarMain"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimaryDark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/mainNested"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:background="@color/colorAccentSoft"
+        app:behavior_peekHeight="66dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/strip" />
+
+            <TextView
+                android:id="@+id/MainMyLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorAccent"
+                android:text="@string/swipe_up"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/map_type"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/basic_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    mapbox:srcCompat="@drawable/icon_basic" />
+
+                <ImageView
+                    android:id="@+id/traffic_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    mapbox:srcCompat="@drawable/icon_traffic" />
+
+                <ImageView
+                    android:id="@+id/outdoor_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    mapbox:srcCompat="@drawable/icon_outdoor" />
+
+                <ImageView
+                    android:id="@+id/night_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    mapbox:srcCompat="@drawable/icon_night" />
+
+                <ImageView
+                    android:id="@+id/sattelite_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    app:tintMode="multiply"
+                    mapbox:srcCompat="@drawable/icon_sattelite" />
+
+                <ImageView
+                    android:id="@+id/sattelite_st_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLight"
+                    android:padding="2dp"
+                    mapbox:srcCompat="@drawable/icon_sattelite_st" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/basic_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/basic"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/traffic_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/traffic"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/outdoor_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/outdoor"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/night_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/night"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sattelite_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/sattelite"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/street_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/street"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_linear_scale_black_24dp"
+                android:text="@string/swipe_up"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/layer"
+                android:textAlignment="center" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/rtlh_image"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="4dp"
+                        android:background="@color/colorSecondaryDark"
+                        android:padding="2dp"
+                        mapbox:srcCompat="@drawable/ic_rtlh" />
+
+                    <ImageView
+                        android:id="@+id/admin_image"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="4dp"
+                        android:padding="2dp"
+                        mapbox:srcCompat="@drawable/ic_admin" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/rtlh_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:text="@string/rtlh"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorSecondaryDark" />
+
+                    <TextView
+                        android:id="@+id/admin_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:text="@string/batasadmin"
+                        android:textAlignment="center"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_linear_scale_black_24dp"
+                android:text="@string/swipe_up"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonTutorial"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_tutorial" />
+
+                <Button
+                    android:id="@+id/buttonRating"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_rating" />
+
+                <Button
+                    android:id="@+id/buttonTentang"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_tentang" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+</android.support.design.widget.CoordinatorLayout>
